@@ -4,7 +4,7 @@ new Vue (
     {
         el: "#app",
         data: {
-            text: "Ciao Noemi! Ricorda: il caldo non esiste!",
+            text: "Adoro i girasoli!",
             model: "",
             img: "https://via.placeholder.com/150",   //img dentro al v-bind
             classContent: "hidden"
