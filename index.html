@@ -13,9 +13,18 @@
     <div id="app">
         <h1>{{text}}</h1> <!--TEMPLATING, sintassi vue per stampare il dato-->
 
-        <input v-model="model">
+        <input v-model="model" placeholder="Prego, inserire nome"><!--serve per agganciare un elemento sia in scrittura che lettura, con elemento che può scrivere tipo input -->
         <br>
-        <span>Noemi {{model}}</span>
+        <span>Ciao {{model}}</span>
+<!--MOSTRA IMG AL CLICK SUL BOTTONE-->
+        <div class="img-content">
+            <div class="classContent">
+                <button @click = "showElement()">Click me!</button>
+                <br>
+                <img v-bind:src="img" alt="">
+            </div>
+        </div>
+    
     </div>
 
     <script type="text/javascript" src="js/script.js"></script>

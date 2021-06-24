@@ -1,0 +1,10 @@
+.img-content img{
+    height: 150px;
+    margin-top: 15px;
+}
+.hidden{
+    display: none;
+}
+.show{
+    display: block;
+}
