@@ -3,7 +3,8 @@ new Vue (
     {
         el: "#app",
         data: {
-            text: "Ciao Noemi! Ricorda: il caldo non esiste!"
+            text: "Ciao Noemi! Ricorda: il caldo non esiste!",
+            model: "ciaoooo"
         }
     }
 )

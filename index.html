@@ -10,7 +10,11 @@
 <body>
 
     <div id="app">
-        <h1>{{text}}</h1>
+        <h1>{{text}}</h1> <!--TEMPLATING, sintassi vue per stampare il dato-->
+        
+        <input v-model="model">
+        <br>
+        <span>Noemi {{model}}</span>
     </div>
 
     <script type="text/javascript" src="js/script.js"></script>
